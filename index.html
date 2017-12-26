@@ -13,6 +13,8 @@
   <p>5. The copied request body works as thus: <br><code>%5C</code> is \<br><code>%22</code> is "<br><code>%2C</code> is ,<br><code>%3A</code> is :<br>
     <code>%7D</code> is }<br><code>%5D</code> is ]
   <p>6. The number of dislikes in a post is the number listed after <code>{\"n\":</code></p>
-  <p>7. The number of dislikes for a poster is the number listed after <code>[value]=</code></p>
+  <p>7. The number of dislikes to be added (or subtracted) for a poster is the number listed after <code>[value]=</code>
+   after the Shorty dislike key is introduced. Whether that number is to be added or subtracted from a poster's total number of dislikes 
+    is determined by whether increment or decrement is stated in the HTTP POST request.</p>
 </body>
 </html>
